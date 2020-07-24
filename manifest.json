@@ -1,0 +1,17 @@
+{
+    "name": "Restaurant Violations",
+    "version": "0.1",
+    "description": "Extension to retrieve health violations from Los Angeles County data!",
+    "manifest_version": 2,
+
+    "permissions": [
+      "https://data.lacounty.gov/"
+    ],
+
+    "content_scripts": [
+        {
+          "matches": ["*://*.yelp.com/biz/*"],          
+          "js": ["violations.js"]
+        }
+      ]
+  }

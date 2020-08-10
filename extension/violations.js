@@ -3,7 +3,7 @@
 // document.querySelector('img[src*="stars"]').parentElement.parentElement.insertAdjacentHTML("beforebegin", '<h3 style="color:blue">hi there</h3>');
 
 // let name=document.querySelector('meta[itemprop="name"]:not(#sitename)').content;
-let name = document.querySelector('.heading--inline__373c0__10ozy').textContent;
+let name = document.querySelector('[class*="heading--inline"]').textContent;
 let url=document.querySelector('img[src*="maps.googleapis.com/"]').src;
 let coords = new URLSearchParams(url).get('center');
 let coordinates= coords.split(',');

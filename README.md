@@ -1,4 +1,4 @@
-# Chrome Estension, Grub or Grubby?
+# Chrome Extension, Grub or Grubby?
 
 ### About
 While chatting about the results of some data analysis projects exploring the Los Angeles, California restaurant scene, we (<a href='https://github.com/sherirosalia'><strong>Sheri </strong></a> and <a href='https://github.com/yanamal'><strong>Yana</strong></a> ) found inspiration for this project which calls the Los Angeles City API and displays resulting restaurant violation information on a Yelp restaurant review page.
